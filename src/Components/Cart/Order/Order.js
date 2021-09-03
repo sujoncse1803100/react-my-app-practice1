@@ -1,7 +1,7 @@
 import React from 'react';
 import { useState } from 'react';
 import './Order.css';
-import {  Collapse, Button } from 'react-bootstrap';
+import {  Collapse } from 'react-bootstrap';
 import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
 import {faShoppingCart} from '@fortawesome/free-solid-svg-icons'
 
