@@ -1,0 +1,7 @@
+.email {
+  text-decoration: none;
+}
+
+.email:hover {
+  color: red;
+}

@@ -1,0 +1,23 @@
+.cartBtn {
+  border: none;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.cart-container {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.btn-cart {
+  padding: 0 10px;
+  font-size: 1rem;
+  border: none;
+}
+
+@media screen and (max-width: 992px) {
+  .order-desc {
+    width: 70%;
+  }
+}
