@@ -1,14 +1,11 @@
 import React from 'react';
-// import { Button } from 'react-bootstrap'
 import Order from './Order/Order';
 
-
-
-const Cart = () => {
+const Cart = (props) => {
+    console.log(props.user);
     return (
         <div>
-            {/* <Button> my button </Button> */}
-            <Order/>
+            <Order user={props.user}  />
         </div>
     );
 };
